@@ -1,14 +1,17 @@
 [
 	{
 		"name":"Cursos",
-		"link":"cursos"
+		"link":"cursos",
+		"icon": "book"
 	},
 	{
 		"name":"Perfil",
-		"link":"perfil"
+		"link":"perfil",
+		"icon": "person"
 	},
 	{
 		"name":"Configurações",
-		"link":"configuracoes"
+		"link":"configuracoes",
+		"icon": "gear"
 	}
 ]

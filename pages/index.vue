@@ -1,22 +1,16 @@
 <template>
-	<b-container>
-		<b-row>
-			<b-col cols=12 class="text-center"> Your Courses </b-col>
-			<b-col v-for="course in courses" :key="course.id">
-				{{courses}}
-			</b-col>
-			
-		</b-row>
-	</b-container>
+	<div>
+		<TabNavigation/>
+		<courses/>
+	</div>
 </template>
 <script>
-import coursesData from '../data/courses.json'
+import TabNavigation from '~/components/MobileApp/menu'
+import courses from '~/components/courses'
 export default {
-	data(){
-		return{
-			courses: coursesData
-		}
-	}
+	components:{
+		courses,
+		TabNavigation
+	},
 }
-
 </script>

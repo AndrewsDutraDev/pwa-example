@@ -3,18 +3,21 @@
 		"name":"Swift",
         "link":"/",
 		"time": 1,
-		"img": "/img/course.png"
+		"img": "/img/course.png",
+		"description": "Advanced IOS APPs"
 	},
 	{
 		"name":"Vue.js",
         "link":"/",
 		"time": 1,
-		"img": "/img/course.png"
+		"img": "/img/course.png",
+		"description": "Advanced Vue Skills"
 	},
 	{
 		"name":"Python",
         "link":"/",
 		"time": 1,
-		"img": "/img/course.png"
+		"img": "/img/course.png",
+		"description": "Advanced Python Skills"
 	}
 ]
