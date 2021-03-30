@@ -1,0 +1,14 @@
+[
+	{
+		"name":"Cursos",
+		"link":"cursos"
+	},
+	{
+		"name":"Perfil",
+		"link":"perfil"
+	},
+	{
+		"name":"Configurações",
+		"link":"configuracoes"
+	}
+]
