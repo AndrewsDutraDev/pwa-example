@@ -45,14 +45,15 @@ export default {
 	// PWA module configuration: https://go.nuxtjs.dev/pwa
 	pwa: {
 		icon: {
-			source: './static/img/logo.png'
+			source: './static/img/logo.png',
+			sizes: [384]
 		},
 		manifest: {
 			name: 'PWA Courses',
 			short_name: 'Courses',
 			start_url: '/',
-			background_color: "#FF0000",
-			theme_color: "#FF0",
+			background_color: "#F8f8f8",
+			theme_color: "#F8f8f8",
 			lang: "pt-BR"
 		},
 		meta:{
