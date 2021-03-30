@@ -4,7 +4,11 @@
 	</div>
 </template>
 <script>
+import Header from "~/components/Desktop/Header.vue"
 export default {
-	layout: 'defaultDesktop'
+	layout: 'defaultDesktop',
+	components:{
+		Header
+	}
 }
 </script>
