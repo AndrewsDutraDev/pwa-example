@@ -36,7 +36,6 @@ a {
 	border-radius: 25px;
 	border-top-right-radius: 0;
 	border-top-left-radius: 0;
-	box-shadow: 2px -2px 12px -7px rgb(0 0 0);
 }
 .nav-link{
 	color:#3C3A36;

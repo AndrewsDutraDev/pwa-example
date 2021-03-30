@@ -34,6 +34,7 @@ export default {
 	border: 1px solid #BEBAB3;
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
+	box-shadow: 2px -2px 12px -7px rgb(0 0 0);
 }
 .icons-navigation {
     display: flex;
