@@ -1,14 +1,15 @@
 <template>
 	<div>
-
+		<Profile />
 	</div>
 </template>
 <script>
-import Header from "~/components/Desktop/Header.vue"
+import Profile from '~/components/Profile.vue'
 export default {
 	layout: 'defaultDesktop',
-	components:{
-		Header
+	components: {
+		Profile
 	}
+
 }
 </script>
