@@ -10,7 +10,7 @@ export default {
 			},
 			{ hid: "description", name: "description", content: "" }
 		],
-		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+		// link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
@@ -44,8 +44,25 @@ export default {
 
 	// PWA module configuration: https://go.nuxtjs.dev/pwa
 	pwa: {
+		icon: {
+			source: './static/img/logo.png'
+		},
 		manifest: {
-			lang: "en"
+			name: 'PWA Courses',
+			short_name: 'Courses',
+			start_url: '/',
+			background_color: "#FF0000",
+			theme_color: "#FF0",
+			lang: "pt-BR"
+		},
+		meta:{
+			name: 'PWA Courses',
+			description: 'Courses free',
+			lang: 'pt-BR'
+		},
+		workbox:{
+			enabled: true,
+			// offlineAssets: ['/img']
 		}
 	},
 

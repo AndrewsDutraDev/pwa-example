@@ -15,6 +15,12 @@ export default {
 		Header,
 		TabNavigation
 	},
+	async mounted(){
+		console.log('kdsksd')
+		const workbox = await window.$workbox;
+		console.log(workbox)
+		// console.log(this.$workbox, 'oo')
+	}
 }
 </script>
 
