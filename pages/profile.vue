@@ -4,12 +4,10 @@
 	</div>
 </template>
 <script>
-import Profile from '~/components/Profile.vue'
+import Profile from "~/components/Profile"
 export default {
-	layout: 'defaultDesktop',
 	components: {
 		Profile
 	}
-
 }
 </script>
