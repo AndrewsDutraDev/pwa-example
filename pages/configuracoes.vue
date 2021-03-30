@@ -13,7 +13,7 @@
                         </b-iconstack>
                         <div class="my-auto ml-2">Notificações</div>
                     </div>
-                    <b-form-checkbox v-model="checked" name="check-button" switch class="my-auto"></b-form-checkbox>
+                    <b-form-checkbox name="check-button" switch class="my-auto"></b-form-checkbox>
                 </div>
 			</b-col>
             <b-col cols="12">
