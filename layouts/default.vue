@@ -1,8 +1,8 @@
 <template>
 	<div>
-		<b-container>
 			<Header v-if="$device.isDesktop" />
-			<TabNavigation v-else/>
+			<TabNavigation v-else/>.
+		<b-container>
 			<Nuxt />
 		</b-container>
 	</div>

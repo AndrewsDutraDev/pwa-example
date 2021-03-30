@@ -2,10 +2,11 @@
     <div class="navigation-tab">
         <div class="icons-navigation">
             <div v-for="item in menu" :key="item.id" class="text-center">
-                <div>
-                    <b-icon :icon="item.icon"></b-icon>
-                </div>
-                <div> {{item.name}} </div>
+				<b-link :to="item.link">
+					<b-icon :icon="item.icon"></b-icon>
+					<div> {{item.name}} </div>
+				</b-link>
+
             </div>
         </div>
     </div>
@@ -13,7 +14,7 @@
 <script>
 import menuData from '~/data/menu.json'
 export default {
-    
+
     data(){
         return{
             menu: menuData
@@ -22,15 +23,19 @@ export default {
 }
 </script>
 <style>
-.navigation-tab{
+.navigation-tab {
     position: fixed;
     z-index: 100;
+	padding: 10px 0px ;
     bottom: 0;
     width: 100%;
-    background-color: #f8f8f8;
-    
+	background: #fff;
+	border-radius: 12px;
+	border: 1px solid #BEBAB3;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
 }
-.icons-navigation{
+.icons-navigation {
     display: flex;
     justify-content: space-around;
 }

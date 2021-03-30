@@ -11,7 +11,7 @@
 	},
 	{
 		"name":"Configurações",
-		"link":"config",
+		"link":"configuracoes",
 		"icon": "gear"
 	}
 ]
